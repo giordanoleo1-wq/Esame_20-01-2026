@@ -1,8 +1,22 @@
-import matplotlib.pyplot as plt
+
 import networkx as nx
 from model.model import Model
 
 my_model = Model()
+my_model.build_graph(4)
+#print(my_model.dic_artist_id)
+
+#print(my_model.dic_album_id)
+#print(my_model.lista_albums)
+#print(my_model.dic_album_artist)
+#print(my_model.lista_artisti_validi)
+#print(my_model.dic_album_artist)
+#print(my_model.dic_album_genre)
+print(my_model.dic_artist_genre)
+
+print(my_model.G)
+
+
 
 # DE-COMMENTARE E ADATTARE I NOMI DELLE FUNZIONI
 # A QUELLE EFFETTIVAMENTE SCRITTE DURANTE L'ESAME

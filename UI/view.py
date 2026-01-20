@@ -27,7 +27,7 @@ class View:
 
         #row1
         self.txtNumAlbumMin = ft.TextField( label="Numero album minimo", width=250)
-        self._btnCreateGraph = ft.ElevatedButton(text="Crea grafo", on_click=self._controller.handle_create_graph )
+        self._btnCreateGraph = ft.ElevatedButton(text="Crea grafo", on_click=self._controller.handle_create_graph)
         row1 = ft.Row([self.txtNumAlbumMin, self._btnCreateGraph],
                       alignment=ft.MainAxisAlignment.CENTER)
         self._page.controls.append(row1)
